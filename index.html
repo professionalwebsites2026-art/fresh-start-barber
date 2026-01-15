@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Start Barber Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1517832606294-7e0c6c2e63b6');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 35px;
+      background-color: #c89b3c;
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 40px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #e6b84f;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #c89b3c;
+      text-align: center;
+    }
+    .about p {
+      text-align: center;
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+    .card {
+      background-color: #1b1b1b;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+    }
+    .card h3 {
+      margin-bottom: 15px;
+      color: #c89b3c;
+    }
+    .impact {
+      background-color: #151515;
+    }
+    .impact-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .stat {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #c89b3c;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #000;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Fresh Start Barber Shop</h1>
+      <p>More than haircuts. We give troubled youth confidence, dignity, and a fresh start through professional barbering and mentorship.</p>
+      <a href="#contact" class="btn">Get Involved</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>Our Mission</h2>
+    <p>
+      Fresh Start Barber Shop was created to support young people who are struggling or at risk. We believe a clean haircut can change how a young person sees themselves — and how the world sees them. Our barbers provide high-quality cuts in a positive, safe environment focused on respect, growth, and self-worth.
+    </p>
+  </section>
+
+  <section>
+    <h2>What We Offer</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Free & Low-Cost Haircuts</h3>
+        <p>Professional haircuts for youth who may not have access to regular grooming services.</p>
+      </div>
+      <div class="card">
+        <h3>Mentorship & Guidance</h3>
+        <p>Positive role models who listen, encourage, and help guide youth in the right direction.</p>
+      </div>
+      <div class="card">
+        <h3>Safe Community Space</h3>
+        <p>A welcoming shop where respect, discipline, and self-improvement come first.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="impact">
+    <h2>Our Impact</h2>
+    <div class="impact-stats">
+      <div>
+        <div class="stat">500+</div>
+        <p>Youth Served</p>
+      </div>
+      <div>
+        <div class="stat">100%</div>
+        <p>Respectful Environment</p>
+      </div>
+      <div>
+        <div class="stat">1 Goal</div>
+        <p>Change Lives</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Want to support, volunteer, or learn more?</p>
+    <p><strong>Email:</strong> professional.websites2026@gmail.com</p>
+    <a href="mailto:professional.websites2026@gmail.com" class="btn">Email Us</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Fresh Start Barber Shop. All Rights Reserved.</p>
+    <p>Empowering youth, one haircut at a time.</p>
+  </footer>
+
+</body>
+</html>
+
